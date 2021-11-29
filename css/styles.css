@@ -1,0 +1,451 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background: #F3F5F9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h1 {
+    color: #333333;
+}
+
+/* wrapper */
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    padding: 80px;
+    justify-content: space-between;
+    position: relative;
+}
+
+/* contacts_section */
+
+.contacts_section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    top: 35px;
+    right: 80px ;
+}
+
+.telegram_icon, .viber_icon, .phone_icon, .whatsup_icon {
+    width: 18px;
+    height:  18px;    
+}
+
+.telegram_link, .viber_link, .phone_link_icon, .whatsup_link{
+    text-decoration: none;
+}
+
+.telegram_icon, .viber_icon, .phone_icon{
+    margin-right: 15px;
+}
+
+.whatsup_icon {
+    margin-right: 20px;
+}
+
+.phone_link_number{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color:#333333;
+    text-decoration: none;
+
+}
+/* expirience-section */
+
+.expirience_section{
+    width: 268px;
+    margin: 0 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+   }
+   
+   .my_poject_link{
+   color: #D71129;
+   
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+   
+}
+
+.expirience_description_text{
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+
+  }
+    
+.expirience_description_text_first{
+    margin-bottom: 8px;
+}    
+
+.my_photo{
+    margin-bottom: 25px;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+}
+
+.fb_icon{
+    width: 18px;
+    height: 18px;
+ }
+
+.link_icon{
+    margin-right: 15px;
+   
+  }
+  .facebook_link ,.linkedin_link{
+    text-decoration: none;
+  }
+
+.expirience_description{
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+
+.technologies {
+    margin-bottom: 50px;    
+}
+
+.database, .devops{
+    width: 30px;
+    margin-right: 15px;
+   }
+
+.qa{
+    width: 30px;
+}
+
+/* my_info_section */
+
+.my_info_section {
+    width: 33%;
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.my_profession{
+    color: #333333;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    margin-bottom: 35px;
+}
+
+.my_name{
+    color: #333333;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 48px;
+    margin-bottom: 30px;
+}
+
+.my_locaton, .my_workstyle{
+    background-color: #2F80ED;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+
+.my_workstyle{
+    margin-bottom: 100px;
+}
+
+.my_deskription{
+    color: #4F4F4F;
+    Font-size: 16px;
+    Line-height: 24px;
+    margin-bottom: 15px;
+}
+
+.my_skiils_title{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 48px;
+    margin-bottom: 15px;
+}
+
+.my_skills_item{
+    font-size: 16px;
+    line-height: 24px; 
+    
+}
+
+.my_skills_list{
+    list-style: disc;
+    padding-left: 18px; 
+    color: #2F80ED;
+}
+
+.my_skills_text {
+    color: #4F4F4F;
+}
+
+/* project_price_section */
+
+.project_price_section{
+    width: 33%;
+}
+
+.project_price_form {
+    padding: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.08);
+    border-radius: 16px;
+}
+
+.project_price_title {
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #2F80ED;
+}
+
+.project_type_container{
+    display: flex;
+    flex-direction: column;
+}
+.project_price_form_field_title{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+   }
+
+   .project_price_select{
+    font-size: 16px;
+    line-height: 24px;
+    color: #4F4F4F;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #4F4F4F;
+    padding-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+   }
+
+   .activity_type_container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+   }
+
+   .activity_type_item{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+   }
+   .activity_type_title{
+    font-size: 16px;
+    line-height: 24px;
+    color: #4F4F4F;
+    margin-left: 20px;
+   }
+   
+   .activity_type_checkbox{
+    width: 18px;
+    height: 18px;
+   }
+
+   .project_price_form_title{
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+   }
+
+   .project_price_sum{
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+   }
+
+   .project_price_sum_currency{
+       color: #2F80ED;
+   }
+
+   .project_price_calculate_btn{
+    font-weight: bold;
+    font-size: 16px;
+    font-weight: 24px;
+    color: #FFFFFF;
+    background: #2F80ED;
+    border-radius: 24px;
+    padding: 12px 32px;
+    margin-top: 30px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+   }
+
+   .project_price_calculate_btn_container{
+       width: 100%;
+       text-align: center;
+   }
+
+ /* modal_section */
+
+   .modal_bgd{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(51 51 51 / 90%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+    opacity: 0;
+
+    transition: all 0.3s ease-in-out;
+   }
+
+   .modal_active{
+       pointer-events: all;
+       opacity: 1;
+   }
+
+   .modal_container{
+       background: #FFFFFF;
+       border-radius: 16px;
+       box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.08);
+       padding: 110px 40px;
+       width: 364px;
+       height: 684px;
+       display: flex;
+       flex-direction:  column;
+       align-items: center;
+       box-sizing: border-box;
+       position: relative;
+   }
+
+   .modal_title{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #2F80ED;
+    margin-bottom: 40px;
+   }
+
+   .user_email_title{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    width: 100%;
+   }
+
+   .modal_container_form{
+       display: flex;
+       flex-direction:  column;
+       align-items: center;
+       width: 100%;
+
+   }
+   
+   .user_email{
+      
+        width: 100%;
+        font-family: 'Montserrat', sans-serif;
+        margin-top: 15px;
+        font-size: 16px;
+        line-height: 24px;
+        padding: 8px 0;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid #4F4F4F;
+       
+   }
+
+   .email_input_container{
+       margin-bottom: 115px;
+       height: 115px;
+   }
+
+   .email_error_text{
+    font-size: 16px;
+    line-height: 24px;
+    color: #D71129;
+    display: none;
+   }
+
+   .email_input_container_error .email_error_text{
+    display: block;
+}
+    .email_input_container_error .user_email{
+        border-bottom: 1px solid #4F4F4F;
+    }
+
+.modal_submit_btn{
+   font-weight: bold;
+   font-size: 16px;
+   font-weight: 24px;
+   color: #FFFFFF;
+   background: #2F80ED;
+   border-radius: 24px;
+   padding: 12px 32px;
+   margin-top: 130px;
+   outline: none;
+   border: none;
+   cursor: pointer;
+}
+
+.modal_icon{
+    margin-bottom: 35px;
+}
+
+.modal_close_btn{
+border: none;
+outline: none;
+background: none;
+cursor: pointer;
+position: absolute;
+top: 25px;
+right: 25px;
+}
+
+.modal_success_message{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #2F80ED;
+    
+    margin-top: 20px;
+}
+
+.modal_container_success{
+    justify-content: center;
+}
