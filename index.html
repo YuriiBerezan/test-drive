@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My_Web_site</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+   
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css">
+
+</head>
+    <body>
+
+        <div class="wrapper"> 
+
+             <!-- contacts-section -->
+
+             <section class="contacts_section">
+                <a href="" class="telegram_link">
+                    <img src="./img/icons/telegram.png" class="telegram_icon" alt="telegram_link">
+                </a> 
+                <a href="" class="viber_link">
+                    <img src="./img/icons/viber.png" class="viber_icon" alt="viber_link">
+                </a> 
+                <a href="tel:+380939984784" class="phone_link_icon">
+                    <img src="./img/icons/phone-icon.svg" class="phone_icon" alt="phone_link">
+                </a> 
+                <a href="" class="whatsup_link">
+                    <img src="./img/icons/whatsup.png" class="whatsup_icon" alt="whatsup_link">
+                </a>
+
+                <a href="tel:+380939984784" class="phone_link_number">
+                    +38 093 998 47 84
+                </a> 
+                        
+            </section>
+
+            <!-- expirience-section -->
+
+            <section class="expirience_section">
+                <img src="./img/My_photo.jpg" alt="My_photo" class="my_photo">
+
+                <div>
+                    <a href="" class="linkedin_link">
+                        <img src="./img/icons/linkedin-icon.svg" alt="my_linkedin_link" class="link_icon"> 
+                    </a>
+
+                    <a href="https://facebook.com" class="facebook_link">
+                        <img src="./img/icons/fb-icon.svg" alt="my_facebook_link" class="fb_icon">
+                    </a>  
+
+                </div> 
+
+                    <div class="expirience_description">
+                        <p class="expirience_description_text expirience_description_text_first">2 готовых проекта</p>   
+                        <p class="expirience_description_text">Нет опыта</p>    
+                    </div>
+            
+                    <div class="technologies"> 
+                        <img src="./img/icons/database.png"  alt="my_database" class="database">    
+                        <img src="./img/icons/devops.png"  alt="my_devops" class="devops">  
+                        <img src="./img/icons/qa.png"  alt="my_qa" class="qa">      
+                    </div>
+
+                <a class="my_poject_link" href="https://github.com"> Мои работы</a>
+                
+            </section>
+            
+            <!-- my_info_section -->
+
+            <section class="my_info_section"> 
+            
+                <h2 class="my_name"> Привет! Я - Юрий</h2>
+                <h1 class="my_profession"> Учусь быть IT-ком</h1>
+
+                <p class="my_locaton">Живу в Киеве</p>
+                <p class="my_workstyle">Работаю удаленно</p>
+
+                <p class="my_deskription">Я настойчиво иду к своей цели</p>    
+
+                <div>
+                    <p class="my_skiils_title">Навыки</p>   
+                    <ul class="my_skills_list">
+                        <li class="my_skills_item">
+                        <p class="my_skills_text">Уровень английского B1</p> 
+                        </li>
+
+                        <li class="my_skills_item">
+                            <p class="my_skills_text"> Средний уровень языка SQL</p>
+                        </li>
+                        <li class="my_skills_item">
+                            <p class="my_skills_text">Начальный уровень web-разработки</p>
+                        </li>
+                        <li class="my_skills_item">
+                            <p class="my_skills_text">Начальный уровень QA</p> 
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- section_price -->
+
+            <section class="project_price_section">
+
+                <form class="project_price_form" method="POST" name="Просчет проекта" data-netlify="true" id="project_price_form">
+                    <h4 class="project_price_title">Раститай стоимость проекта</h4>
+
+                    <div class="project_type_container">
+                        <label for="project_type" class=project_price_form_field_title>Тип сайта</label>
+                        <select name="project_type" id="project_type" class="project_price_select">
+                            <option value="landing-page">Landing Page</option>
+                            <option value="online-store">Online Store</option>
+                            <option value="web-application">Web Application</option>
+                            <option value="mobile-application">Mobile Application</option>
+                        </select>
+                    </div>
+
+                    <div class="activity_type_container">
+                        <p class="project_price_form_field_title">Тип работ</p>
+
+                        <div class="activity_type_item">
+                            <input type="checkbox" name="Project_Management" id="project_management" class="activity_type_checkbox">
+                            <label for="project_management" class="activity_type_title">Project management</label>
+                        </div>
+
+                        <div class="activity_type_item">
+                            <input type="checkbox" name="Design" id="design" class="activity_type_checkbox">
+                            <label for="design" class="activity_type_title">Design</label>
+                        </div>
+
+                        <div class="activity_type_item">
+                            <input type="checkbox" name="Development" id="development" class="activity_type_checkbox">
+                            <label for="developer" class="activity_type_title">Development</label>
+                        </div>
+
+                        <div class="activity_type_item">
+                            <input type="checkbox" name="QA" id="qa" class="activity_type_checkbox">
+                            <label for="qa" class="activity_type_title" >QA</label>
+                        </div>
+                    </div>       
+
+                    <div class="project_price_container">
+                        <p class="project_price_form_title">Стоимость</p>
+                        <p class="project_price_sum"><span class="project_price_sum_currency">$</span> <span id ='total_price'> 0 </span></p>
+                    </div>
+
+                    <input type="hidden" name="Email">
+
+                    <div class="project_price_calculate_btn_container">
+                        <button class="project_price_calculate_btn">Отправить запрос</button>
+                    </div>
+
+                </form>
+            </section>
+
+        </div>
+
+            <!-- Modal_section -->
+
+            <div class="modal_bgd" id ='modal_email'>
+                <div class="modal_container">
+
+                    <button class="modal_close_btn">
+                        <img src="./img/icons/close-icon.svg" alt="close_icon">
+                    </button>
+
+                    <img src="./img/icons/mail-icon.svg" alt="mail_icon" class="modal_icon">
+                    <h4 class="modal_title">Я свяжусь с вами на <br> протяжении ближайшего часа</h4>
+
+                    <form action="#" class="modal_container_form" id="modal_email_container">
+                        <div class="email_input_container" id="email_input_container">
+                            <label for="user_email" class="user_email_title">Email</label>
+                            <input type="email" name="user_email" id="user_email" class="user_email" placeholder="Укажите email">
+                            <p class="email_error_text">Проверьте email</p>
+                        </div>
+                        <button type="submit" class="modal_submit_btn" >Отправить</button>
+                    </form> 
+                </div>
+            </div>
+
+            <div class="modal_bgd" id="success_modal">
+                <div class="modal_container modal_container_success">
+                    <button class="modal_close_btn">
+                        <img src="./img/icons/close-icon.svg" alt="close_icon">
+                    </button>
+                    <img src="./img/icons/success-icon.svg" alt="success_icon" class="success_icon">
+
+
+                    <p class="modal_success_message">Все отлично! <br> Запрос отправлен</p>
+
+                </div>
+            </div>
+
+            <script src="./js/script.js"></script>
+          
+
+    </body>
+</html>
